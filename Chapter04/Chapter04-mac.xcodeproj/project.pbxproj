@@ -13,6 +13,7 @@
 		80BFA3CB276E61C200BF1837 /* AIComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BFA3C9276E61C200BF1837 /* AIComponent.cpp */; };
 		80BFA3CE276E63FB00BF1837 /* AIState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BFA3CC276E63FB00BF1837 /* AIState.cpp */; };
 		80BFA3D1276EBA6400BF1837 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BFA3CF276EBA6400BF1837 /* Component.cpp */; };
+		80BFA3E6276ED5F700BF1837 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BFA3E4276ED5F700BF1837 /* Math.cpp */; };
 		92D324FB1B697389005A86C7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D324FA1B697389005A86C7 /* CoreFoundation.framework */; };
 		92E46E941B6353E50035CD21 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E46E931B6353E50035CD21 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,8 @@
 		80BFA3CD276E63FB00BF1837 /* AIState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIState.h; sourceTree = "<group>"; };
 		80BFA3CF276EBA6400BF1837 /* Component.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Component.cpp; sourceTree = "<group>"; };
 		80BFA3D0276EBA6400BF1837 /* Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		80BFA3E4276ED5F700BF1837 /* Math.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Math.cpp; sourceTree = "<group>"; };
+		80BFA3E5276ED5F700BF1837 /* Math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Math.hpp; sourceTree = "<group>"; };
 		92D324FA1B697389005A86C7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		92E46DF71B634EA30035CD21 /* Game-mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Game-mac"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E46E931B6353E50035CD21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -52,6 +55,8 @@
 			children = (
 				80BFA3C9276E61C200BF1837 /* AIComponent.cpp */,
 				80BFA3CF276EBA6400BF1837 /* Component.cpp */,
+				80BFA3E4276ED5F700BF1837 /* Math.cpp */,
+				80BFA3E5276ED5F700BF1837 /* Math.hpp */,
 				80BFA3D0276EBA6400BF1837 /* Component.h */,
 				80BFA3CA276E61C200BF1837 /* AIComponent.h */,
 				80BFA3CC276E63FB00BF1837 /* AIState.cpp */,
@@ -149,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80BFA3C8276D912F00BF1837 /* Actor.cpp in Sources */,
+				80BFA3E6276ED5F700BF1837 /* Math.cpp in Sources */,
 				80BFA3D1276EBA6400BF1837 /* Component.cpp in Sources */,
 				80BFA3CB276E61C200BF1837 /* AIComponent.cpp in Sources */,
 				80BFA3C2276D840400BF1837 /* Main.cpp in Sources */,
