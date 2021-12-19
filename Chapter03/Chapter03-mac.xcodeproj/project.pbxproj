@@ -7,50 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80BFA3D4276EBF9200BF1837 /* Asteroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BFA3D2276EBF9200BF1837 /* Asteroid.cpp */; };
+		80BFA3D7276EC0C000BF1837 /* SpriteComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BFA3D5276EC0C000BF1837 /* SpriteComponent.cpp */; };
+		80BFA3DA276EC18300BF1837 /* MoveComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80BFA3D8276EC18300BF1837 /* MoveComponent.cpp */; };
 		9223C4781F009428009A94D7 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9223C4671F009428009A94D7 /* Game.cpp */; };
 		9223C4791F009428009A94D7 /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9223C4681F009428009A94D7 /* Actor.cpp */; };
-		9223C47C1F009428009A94D7 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9223C46E1F009428009A94D7 /* Component.cpp */; };
 		9223C47D1F009428009A94D7 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9223C4711F009428009A94D7 /* Main.cpp */; };
 		9223C47E1F009428009A94D7 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9223C4721F009428009A94D7 /* Math.cpp */; };
 		9223C47F1F009428009A94D7 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9223C4741F009428009A94D7 /* Ship.cpp */; };
-		9223C4801F009428009A94D7 /* SpriteComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9223C4761F009428009A94D7 /* SpriteComponent.cpp */; };
 		92D324FB1B697389005A86C7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D324FA1B697389005A86C7 /* CoreFoundation.framework */; };
-		92E391801FE87CA300D8C362 /* MoveComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E391741FE87CA200D8C362 /* MoveComponent.cpp */; };
-		92E391811FE87CA300D8C362 /* Laser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E391771FE87CA200D8C362 /* Laser.cpp */; };
 		92E391821FE87CA300D8C362 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E391781FE87CA200D8C362 /* Random.cpp */; };
-		92E391831FE87CA300D8C362 /* InputComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E3917A1FE87CA200D8C362 /* InputComponent.cpp */; };
-		92E391841FE87CA300D8C362 /* Asteroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E3917D1FE87CA300D8C362 /* Asteroid.cpp */; };
-		92E391851FE87CA300D8C362 /* CircleComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92E3917E1FE87CA300D8C362 /* CircleComponent.cpp */; };
 		92E46E941B6353E50035CD21 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E46E931B6353E50035CD21 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80BFA3D2276EBF9200BF1837 /* Asteroid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Asteroid.cpp; sourceTree = "<group>"; };
+		80BFA3D3276EBF9200BF1837 /* Asteroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Asteroid.h; sourceTree = "<group>"; };
+		80BFA3D5276EC0C000BF1837 /* SpriteComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteComponent.cpp; sourceTree = "<group>"; };
+		80BFA3D6276EC0C000BF1837 /* SpriteComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteComponent.h; sourceTree = "<group>"; };
+		80BFA3D8276EC18300BF1837 /* MoveComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MoveComponent.cpp; sourceTree = "<group>"; };
+		80BFA3D9276EC18300BF1837 /* MoveComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveComponent.h; sourceTree = "<group>"; };
 		9223C4671F009428009A94D7 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		9223C4681F009428009A94D7 /* Actor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
 		9223C4691F009428009A94D7 /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
-		9223C46E1F009428009A94D7 /* Component.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Component.cpp; sourceTree = "<group>"; };
-		9223C46F1F009428009A94D7 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
 		9223C4701F009428009A94D7 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		9223C4711F009428009A94D7 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 		9223C4721F009428009A94D7 /* Math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Math.cpp; sourceTree = "<group>"; };
 		9223C4731F009428009A94D7 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
 		9223C4741F009428009A94D7 /* Ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
 		9223C4751F009428009A94D7 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
-		9223C4761F009428009A94D7 /* SpriteComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteComponent.cpp; sourceTree = "<group>"; };
-		9223C4771F009428009A94D7 /* SpriteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteComponent.h; sourceTree = "<group>"; };
 		92D324FA1B697389005A86C7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		92E391741FE87CA200D8C362 /* MoveComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoveComponent.cpp; sourceTree = "<group>"; };
-		92E391751FE87CA200D8C362 /* Asteroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asteroid.h; sourceTree = "<group>"; };
-		92E391761FE87CA200D8C362 /* MoveComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveComponent.h; sourceTree = "<group>"; };
-		92E391771FE87CA200D8C362 /* Laser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Laser.cpp; sourceTree = "<group>"; };
 		92E391781FE87CA200D8C362 /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
-		92E391791FE87CA200D8C362 /* CircleComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleComponent.h; sourceTree = "<group>"; };
-		92E3917A1FE87CA200D8C362 /* InputComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputComponent.cpp; sourceTree = "<group>"; };
-		92E3917B1FE87CA200D8C362 /* Laser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Laser.h; sourceTree = "<group>"; };
 		92E3917C1FE87CA300D8C362 /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
-		92E3917D1FE87CA300D8C362 /* Asteroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Asteroid.cpp; sourceTree = "<group>"; };
-		92E3917E1FE87CA300D8C362 /* CircleComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircleComponent.cpp; sourceTree = "<group>"; };
-		92E3917F1FE87CA300D8C362 /* InputComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputComponent.h; sourceTree = "<group>"; };
 		92E46DF71B634EA30035CD21 /* Game-mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Game-mac"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E46E931B6353E50035CD21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -71,31 +59,23 @@
 		92E46DEE1B634EA30035CD21 = {
 			isa = PBXGroup;
 			children = (
+				80BFA3D2276EBF9200BF1837 /* Asteroid.cpp */,
+				80BFA3D5276EC0C000BF1837 /* SpriteComponent.cpp */,
+				80BFA3D6276EC0C000BF1837 /* SpriteComponent.h */,
+				80BFA3D8276EC18300BF1837 /* MoveComponent.cpp */,
+				80BFA3D9276EC18300BF1837 /* MoveComponent.h */,
+				80BFA3D3276EBF9200BF1837 /* Asteroid.h */,
 				9223C4681F009428009A94D7 /* Actor.cpp */,
 				9223C4691F009428009A94D7 /* Actor.h */,
-				92E3917D1FE87CA300D8C362 /* Asteroid.cpp */,
-				92E391751FE87CA200D8C362 /* Asteroid.h */,
-				92E3917E1FE87CA300D8C362 /* CircleComponent.cpp */,
-				92E391791FE87CA200D8C362 /* CircleComponent.h */,
-				9223C46E1F009428009A94D7 /* Component.cpp */,
-				9223C46F1F009428009A94D7 /* Component.h */,
 				9223C4671F009428009A94D7 /* Game.cpp */,
 				9223C4701F009428009A94D7 /* Game.h */,
-				92E3917A1FE87CA200D8C362 /* InputComponent.cpp */,
-				92E3917F1FE87CA300D8C362 /* InputComponent.h */,
-				92E391771FE87CA200D8C362 /* Laser.cpp */,
-				92E3917B1FE87CA200D8C362 /* Laser.h */,
 				9223C4711F009428009A94D7 /* Main.cpp */,
 				9223C4721F009428009A94D7 /* Math.cpp */,
 				9223C4731F009428009A94D7 /* Math.h */,
-				92E391741FE87CA200D8C362 /* MoveComponent.cpp */,
-				92E391761FE87CA200D8C362 /* MoveComponent.h */,
 				92E391781FE87CA200D8C362 /* Random.cpp */,
 				92E3917C1FE87CA300D8C362 /* Random.h */,
 				9223C4741F009428009A94D7 /* Ship.cpp */,
 				9223C4751F009428009A94D7 /* Ship.h */,
-				9223C4761F009428009A94D7 /* SpriteComponent.cpp */,
-				9223C4771F009428009A94D7 /* SpriteComponent.h */,
 				92E46DF81B634EA30035CD21 /* Products */,
 				92D324FA1B697389005A86C7 /* CoreFoundation.framework */,
 				92E46E931B6353E50035CD21 /* OpenGL.framework */,
@@ -183,19 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E391811FE87CA300D8C362 /* Laser.cpp in Sources */,
-				92E391851FE87CA300D8C362 /* CircleComponent.cpp in Sources */,
 				9223C47D1F009428009A94D7 /* Main.cpp in Sources */,
 				9223C47E1F009428009A94D7 /* Math.cpp in Sources */,
 				9223C4781F009428009A94D7 /* Game.cpp in Sources */,
-				92E391841FE87CA300D8C362 /* Asteroid.cpp in Sources */,
-				9223C4801F009428009A94D7 /* SpriteComponent.cpp in Sources */,
-				92E391801FE87CA300D8C362 /* MoveComponent.cpp in Sources */,
 				9223C47F1F009428009A94D7 /* Ship.cpp in Sources */,
 				9223C4791F009428009A94D7 /* Actor.cpp in Sources */,
+				80BFA3D4276EBF9200BF1837 /* Asteroid.cpp in Sources */,
+				80BFA3D7276EC0C000BF1837 /* SpriteComponent.cpp in Sources */,
 				92E391821FE87CA300D8C362 /* Random.cpp in Sources */,
-				9223C47C1F009428009A94D7 /* Component.cpp in Sources */,
-				92E391831FE87CA300D8C362 /* InputComponent.cpp in Sources */,
+				80BFA3DA276EC18300BF1837 /* MoveComponent.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
